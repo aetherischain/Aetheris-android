@@ -13,12 +13,6 @@ Aetheris is a decentralized peer-to-peer cryptocurrency, often referred to as th
 
 ---
 
-## MWEB Privacy
-
-In 2022, Aetheris activated the **MimbleWimble Extension Block (MWEB)**. This is an optional feature that allows users to hide their transaction amounts and addresses, bringing bank-level privacy to the blockchain.
-
----
-
 ## How to use Aetheris
 
 1.  **Get a wallet** — Download **AetherisWallet** for your platform.

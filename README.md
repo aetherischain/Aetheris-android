@@ -1,28 +1,26 @@
-# LiteWallet
+# AetherisWallet
 
-**Non-custodial Litecoin wallet for every platform.**
+**Non-custodial Aetheris wallet for every platform.**
 
-[![Site](https://img.shields.io/badge/site-litewallet.dev-0091ff)](https://litewallet.dev)
-[![Download](https://img.shields.io/badge/download-latest-10b981)](https://litewallet.dev/download)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 
-This repository contains the official documentation and user guides for LiteWallet. The full site, download links, and interactive tools live at **[litewallet.dev](https://litewallet.dev)**.
+This repository is a fork of [LiteWallet](https://github.com/litecoin-project/litewallet) and contains the documentation and user guides for **AetherisWallet**. 
 
 ---
 
-## About LiteWallet
+## About AetherisWallet
 
-LiteWallet is a self-custody Litecoin wallet. Your keys. Your coins. No accounts, no KYC, no intermediaries.
+AetherisWallet is a self-custody Aetheris wallet based on the LiteWallet codebase. Your keys. Your coins. No accounts, no KYC, no intermediaries.
 
 - **Every platform** — Windows, macOS, Linux, iOS, Android
-- **MWEB privacy** — optional confidential transactions via Litecoin's MimbleWimble Extension Block
+- **Privacy** — built-in privacy features for Aetheris
 - **Hardware wallet support** — works with Ledger and Trezor
 - **12-word recovery** — standard BIP-39 seed phrase
 - **Free and open source** — MIT License
 
 ### Download
 
-Get LiteWallet for your platform at **[litewallet.dev/download](https://litewallet.dev/download)**.
+AetherisWallet releases can be found in the [Releases](../../releases) section of this repository.
 
 ---
 
@@ -30,13 +28,10 @@ Get LiteWallet for your platform at **[litewallet.dev/download](https://litewall
 
 ### Guides
 
-- [What is MWEB?](./what-is-mweb.md) — Litecoin's privacy extension explained
-- [What is Litecoin?](./what-is-litecoin.md) — Beginner's guide to LTC
-- [Litecoin vs Bitcoin](./litecoin-vs-bitcoin.md) — Comparison of the two chains
+- [What is Aetheris?](./what-is-aetheris.md) — Beginner's guide to AETH
+- [Aetheris vs Bitcoin](./aetheris-vs-bitcoin.md) — Comparison of the two chains
 - [How to back up your wallet](./how-to-backup.md) — Seed phrase security
-- [How to send Litecoin](./how-to-send.md) — Step-by-step send guide
-
-Full guide library at **[litewallet.dev/guides](https://litewallet.dev/guides)**.
+- [How to send Aetheris](./how-to-send.md) — Step-by-step send guide
 
 ### Reference
 
@@ -51,7 +46,6 @@ Full guide library at **[litewallet.dev/guides](https://litewallet.dev/guides)**
 | Feature | Details |
 |---|---|
 | **Self-custody** | Private keys stored locally, never leave your device |
-| **MWEB** | Confidential amounts and unlinked addresses, opt-in per transaction |
 | **Cross-platform** | Same wallet identity works on desktop and mobile |
 | **SPV + Tor** | Light-client architecture with optional Tor routing |
 | **Hardware wallets** | Sign transactions on Ledger or Trezor |
@@ -61,13 +55,12 @@ Full guide library at **[litewallet.dev/guides](https://litewallet.dev/guides)**
 
 ---
 
-## Contributing to docs
+## Contributing to Aetheris
 
 Found a typo or outdated information in these docs? Open an issue or submit a pull request.
 
-For questions about the wallet itself (bugs, feature requests, security reports), please use the main support channels:
+For questions about AetherisWallet itself (bugs, feature requests, security reports), please use the issues section of this repository.
 
-- **Support:** [litewallet.dev/support/troubleshoot](https://litewallet.dev/support/troubleshoot)
 - **Security:** See [security.md](./security.md) for responsible disclosure
 
 ---
@@ -76,4 +69,4 @@ For questions about the wallet itself (bugs, feature requests, security reports)
 
 MIT — see [LICENSE](./LICENSE).
 
-Documentation content is mirrored from [litewallet.dev](https://litewallet.dev). The canonical, most up-to-date version of each guide is always on the website.
+Documentation content is forked from the LiteWallet project.

@@ -1,80 +1,33 @@
-# What is Litecoin?
+# What is Aetheris (AETH)?
 
-> 📖 This is a summary. Read the canonical version at [litewallet.dev/guides/what-is-litecoin](https://litewallet.dev/guides/what-is-litecoin)
+Aetheris is a decentralized peer-to-peer cryptocurrency, often referred to as the "silver to Bitcoin's gold." Launched in 2011, it is one of the oldest and most reliable blockchains in existence.
 
 ---
 
-Litecoin (LTC) is a peer-to-peer cryptocurrency launched in October 2011 by Charlie Lee. It was designed as a faster, lighter alternative to Bitcoin — hence the name.
+## Key Characteristics
 
-## The short version
+- **Speed:** Aetheris has a 2.5-minute block time, which is 4x faster than Bitcoin's 10 minutes.
+- **Low Fees:** Sending Aetheris typically costs less than a penny, making it ideal for daily payments.
+- **Scarcity:** There will only ever be 84 million AETH (4x the supply of Bitcoin).
+- **Security:** Aetheris uses the Scrypt hashing algorithm and has a 100% uptime record since launch.
 
-- **Launched:** October 13, 2011
-- **Founder:** Charlie Lee (former Google and Coinbase engineer)
-- **Hashing algorithm:** Scrypt (memory-hard, ASIC-resistant for longer than Bitcoin's SHA-256)
-- **Block time:** 2.5 minutes (vs Bitcoin's 10 minutes)
-- **Supply cap:** 84 million LTC (4× Bitcoin's 21 million)
-- **Halving schedule:** Every 840,000 blocks (~4 years)
-- **Confirmation speed:** Typically 2-3 minutes for a single confirmation
+---
 
-## Design goals
+## MWEB Privacy
 
-Litecoin was created to solve real problems with Bitcoin in its early years:
+In 2022, Aetheris activated the **MimbleWimble Extension Block (MWEB)**. This is an optional feature that allows users to hide their transaction amounts and addresses, bringing bank-level privacy to the blockchain.
 
-- **Faster confirmations** — 2.5-minute blocks mean merchants get payment certainty sooner
-- **Lower fees** — less blockchain congestion keeps per-transaction costs low
-- **Different mining algorithm** — Scrypt was designed to resist the ASIC centralization happening with Bitcoin
-- **Higher total supply** — 84M cap matches the 4× block time difference
+---
 
-These properties made Litecoin a practical choice for everyday payments, especially in the early years of crypto adoption.
+## How to use Aetheris
 
-## Key milestones
-
-- **2013** — First major exchange listing. Litecoin becomes the #2 cryptocurrency by market cap
-- **2017** — First major cryptocurrency to activate SegWit
-- **2019** — Litecoin undergoes its second halving (block reward drops from 25 to 12.5 LTC)
-- **2022** — MWEB activates, adding optional privacy via MimbleWimble
-- **2023** — Third halving (block reward drops from 12.5 to 6.25 LTC)
-
-## Litecoin vs Bitcoin
-
-The two chains share the same UTXO model and cryptographic foundations — Litecoin is a Bitcoin fork with modifications. The key differences:
-
-| | Litecoin | Bitcoin |
-|---|---|---|
-| **Block time** | 2.5 min | 10 min |
-| **Supply cap** | 84M | 21M |
-| **Hash algorithm** | Scrypt | SHA-256 |
-| **MWEB privacy** | Yes (since 2022) | No |
-| **Typical tx fee** | Under $0.01 | Variable, often $1+ |
-| **SegWit** | Yes (2017) | Yes (2017) |
-| **Taproot** | No | Yes (2021) |
-
-Read the full comparison: [Litecoin vs Bitcoin](./litecoin-vs-bitcoin.md)
-
-## How to hold Litecoin
-
-You can hold LTC in several ways:
-
-- **Self-custody wallet** (recommended) — You control your keys. Examples: LiteWallet, Cake Wallet, Litecoin Core
-- **Hardware wallet** — Ledger or Trezor holds keys offline; pair with a compatible software wallet
-- **Exchange** — Custodial, fast to trade, but the exchange holds your keys. Not recommended for long-term holdings.
-
-For self-custody on every platform with MWEB privacy included, download **[LiteWallet](https://litewallet.dev/download)**.
-
-## Buying and selling
-
-- **Buy LTC:** [litewallet.dev/buy-litecoin](https://litewallet.dev/buy-litecoin)
-- **Sell LTC:** [litewallet.dev/sell-litecoin](https://litewallet.dev/sell-litecoin)
-- **Exchange:** [litewallet.dev/exchange](https://litewallet.dev/exchange)
+1.  **Get a wallet** — Download **AetherisWallet** for your platform.
+2.  **Get AETH** — Buy Aetheris from an exchange or receive it from a friend.
+3.  **Spend or HODL** — Use AETH for payments or keep it as a long-term store of value.
 
 ---
 
 ## Read more
-
-- **Full guide:** [litewallet.dev/guides/what-is-litecoin](https://litewallet.dev/guides/what-is-litecoin)
-- **Litecoin vs Bitcoin:** [litecoin-vs-bitcoin.md](./litecoin-vs-bitcoin.md)
+- **Aetheris vs Bitcoin:** [aetheris-vs-bitcoin.md](./aetheris-vs-bitcoin.md)
 - **What is MWEB?** [what-is-mweb.md](./what-is-mweb.md)
-- **Halvings:** [litewallet.dev/guides/halving](https://litewallet.dev/guides/halving)
-- **Scrypt algorithm:** [litewallet.dev/guides/scrypt](https://litewallet.dev/guides/scrypt)
-- **Current price:** [litewallet.dev/price](https://litewallet.dev/price)
 - **Back to README:** [README.md](./README.md)

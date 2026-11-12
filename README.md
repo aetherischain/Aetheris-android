@@ -18,9 +18,21 @@ AetherisWallet is a self-custody Aetheris wallet based on the LiteWallet codebas
 - **12-word recovery** — standard BIP-39 seed phrase
 - **Free and open source** — MIT License
 
-### Download
+### Download & Releases
 
-AetherisWallet releases can be found in the [Releases](../../releases) section of this repository.
+- **Latest Release:** **v1.0.1 (BETA 4)** — Download [`AetherisWallet_v1.0.1_BETA4.apk`](./AetherisWallet_v1.0.1_BETA4.apk) or [`AetherisWallet_Latest.apk`](./AetherisWallet_Latest.apk).
+- All releases can also be found in the [Releases](../../releases) section.
+
+---
+
+## Latest Updates (BETA 4)
+
+- 🪙 **Aetheris Staking (PoS):** Added new Stake fragment interface.
+- 📱 **Side Navigation:** Moved Terminal feature into the main side drawer menu.
+- 🔊 **Notifications:** Added custom notification sounds and updated alert handling.
+- 🌍 **Localization:** Added expanded language support (including Polish and Intro resources).
+- 🔗 **Support & Exchange:** Updated Customer Support contact links and Buy AETH URLs.
+- 🎨 **Branding:** Complete design update with new logotypes and icons.
 
 ---
 
@@ -46,11 +58,12 @@ AetherisWallet releases can be found in the [Releases](../../releases) section o
 | Feature | Details |
 |---|---|
 | **Self-custody** | Private keys stored locally, never leave your device |
+| **Aetheris PoW/PoS** | Scrypt PoW and Staking support |
 | **Cross-platform** | Same wallet identity works on desktop and mobile |
 | **SPV + Tor** | Light-client architecture with optional Tor routing |
 | **Hardware wallets** | Sign transactions on Ledger or Trezor |
 | **12-word recovery** | BIP-39 compatible, restore anywhere |
-| **Exchange integration** | In-wallet swap and purchase flows |
+| **Exchange & Buy** | In-wallet swap and purchase flows |
 | **Open source** | MIT License, full source code available |
 
 ---
